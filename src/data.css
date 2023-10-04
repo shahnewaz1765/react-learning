@@ -1,0 +1,15 @@
+#doto{
+    text-align: center;
+}
+#image1{
+    text-align: center;
+}
+.list{
+    
+        display:flex;
+        justify-content:center;
+        text-align: left;
+    }
+     
+
+
