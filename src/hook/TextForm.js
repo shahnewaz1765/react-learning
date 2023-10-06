@@ -1,7 +1,7 @@
 import React, { useState } from "react";
-import "./textform.css";
+import "../styles/textform.css";
 
-import "./css/bootstrap.min.css";
+import "../styles/bootstrap.min.css";
 
 
 

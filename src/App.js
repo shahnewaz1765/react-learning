@@ -1,22 +1,22 @@
-import "./css/bootstrap.min.css";
-import "./App.css";
-import Message from "./message";
-import Comment from "./Comment";     
-import Click from "./Click";
-import Data from "./Data";
-import TextForm from "./TextForm";
-import ItemList from "./ItemList";
-import List from "./List";
-import TeaGathering from "./TeaGathering";
-import Gallery from "./Gallery";
-import TargetValue from "./TargetValue";
-import Time from "./Time";
+import "./styles/bootstrap.min.css";
+import "./styles/App.css";
+import Message from "./component/message";
+import Comment from "./component/Comment";     
+import Click from "./component/Click";
+import Data from "./component/Data";
+import TextForm from "./hook/TextForm";
+import ItemList from "./component/ItemList";
+import List from "./component/List";
+import TeaGathering from "./component/TeaGathering";
+import Gallery from "./hook/Gallery";
+import TargetValue from "./hook/TargetValue";
+import Time from "./component/Time";
 
 const comment = {
   date: new Date(),
-  text: "I hope you enjoy learning React!",
+  text: "Are you coming to WATCH next GAME",
   author: {
-    name: "Hello Kitty"
+    name: "Hey YOU"
     
   },
 };
@@ -26,7 +26,7 @@ function App() {
     <div >   
       <div className="container mt-5">
       <Time />
-        <div className="my-4 text-center"> {/* Add margin and center-align */}
+        <div className="my-4 text-center"> 
            <Message message="Welcome To Santiago Barnabue!!" />
         </div>
       </div>
@@ -34,6 +34,7 @@ function App() {
         date={comment.date}
         text={comment.text}
         author={comment.author}
+        //this has to change later
       />
       <Click/>
       <Data/>

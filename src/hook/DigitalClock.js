@@ -1,6 +1,6 @@
 // src/DigitalClock.js
 import React, { Component } from 'react';
-import '../src/css/bootstrap.min.css';
+import '../styles/bootstrap.min.css';
 //
 class DigitalClock extends Component {
   constructor(props) {

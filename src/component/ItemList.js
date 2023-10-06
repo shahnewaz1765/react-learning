@@ -1,5 +1,5 @@
 import React from "react";
-import "./itemlist.css"
+import "../styles/itemlist.css"
 
 function Item({ name, isPacked }) {
     return (

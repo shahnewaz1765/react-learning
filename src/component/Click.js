@@ -18,6 +18,7 @@ class Click extends Component {
   render() {
     return (
       <div className="text-center">
+        
         <h1 id ="counter">Counter: {this.state.counter}</h1>
         <button onClick={this.handleClick} className="mb-3">Increment</button>
       </div>

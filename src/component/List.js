@@ -1,6 +1,6 @@
 import React from "react";
-import  {people} from "./ListData";
-import salam from './gallery/salam.webp';
+import  {people} from "../data/ListData";
+
 
 
 

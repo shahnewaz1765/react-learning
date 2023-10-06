@@ -1,6 +1,6 @@
 import React from "react";
-import zarag from "./gallery/zarag.jpg"
-import "./data.css"
+import zarag from "../assests/zarag.jpg";
+import "../styles/data.css";
 
 
 const person = {

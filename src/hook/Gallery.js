@@ -1,6 +1,6 @@
 import React, { useState } from "react";
-import { sculptureList } from "./gallerydata";
-import "./css/bootstrap.min.css";
+import { sculptureList } from "../data/gallerydata";
+import "../styles/bootstrap.min.css";
 
 export default function Gallery(){
     const [index,setIndex]=useState(0);
