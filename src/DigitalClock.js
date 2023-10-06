@@ -1,5 +1,6 @@
 // src/DigitalClock.js
 import React, { Component } from 'react';
+import '../src/css/bootstrap.min.css';
 //
 class DigitalClock extends Component {
   constructor(props) {
@@ -27,7 +28,7 @@ class DigitalClock extends Component {
   render() {
     console.log("render")
     return (
-      <div className="digital-clock">
+      <div >
         <h1>{this.state.time}</h1>
       </div>
     );

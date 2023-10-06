@@ -1,4 +1,4 @@
-import logo from "./logo.svg";
+import "./css/bootstrap.min.css";
 import "./App.css";
 import Message from "./message";
 import Comment from "./Comment";     
@@ -16,17 +16,20 @@ const comment = {
   date: new Date(),
   text: "I hope you enjoy learning React!",
   author: {
-    name: "Hello Kitty",
-    avatarUrl: "http://placekitten.com/g/64/64",
+    name: "Hello Kitty"
+    
   },
 };
 
 function App() {
   return (
-    <div >
-      <Message message="Welcome" name="neymar" />
-      <Message message="Welcome" name="benzema" />
-      <Message message="Welcome" name="modric" />
+    <div >   
+      <div className="container mt-5">
+      <Time />
+        <div className="my-4 text-center"> {/* Add margin and center-align */}
+           <Message message="Welcome To Santiago Barnabue!!" />
+        </div>
+      </div>
       <Comment
         date={comment.date}
         text={comment.text}
@@ -40,7 +43,7 @@ function App() {
       </div>
       <ItemList/>
       <List/>
-      <Time />
+      
       <TeaGathering/>
       <Gallery/>
       <TargetValue/>

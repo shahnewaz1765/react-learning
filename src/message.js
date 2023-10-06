@@ -1,5 +1,5 @@
 import React from "react";
-
+import "./css/bootstrap.min.css";
 
 function Message(props) {
   return (

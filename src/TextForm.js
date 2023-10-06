@@ -29,7 +29,7 @@ export default function TextForm(props){
         <div>
             <div className="container">
                 <h1>{props.heading}</h1>
-                <label for="myBox" class="form-label"></label>
+                <label  className="form-label"></label>
                 <textarea className="form-control" value={text} onChange={handleOnChange} id="myBox" rows="3"></textarea>
                 <div className="btn-block">
                    <button className="btn btn-primary btn-margin" onClick={handleUpclick}>Do It</button>
