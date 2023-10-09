@@ -11,10 +11,14 @@ import TeaGathering from "./component/TeaGathering";
 import Gallery from "./hook/Gallery";
 import TargetValue from "./hook/TargetValue";
 import Time from "./component/Time";
+import Counter from "./hook/Counter";
+import MovingDot from "./hook/MovingDot";
+import BucketList from "./component/myBucket";
+
 
 const comment = {
   date: new Date(),
-  text: "Are you coming to WATCH next GAME",
+  text: "Are you coming to WATCH the next GAME",
   author: {
     name: "Hey YOU"
     
@@ -48,7 +52,9 @@ function App() {
       <TeaGathering/>
       <Gallery/>
       <TargetValue/>
-     
+      <Counter/>
+      <MovingDot/>
+      <BucketList/>
   </div>
  
   );

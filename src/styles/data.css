@@ -1,9 +1,10 @@
 #doto{
     text-align: center;
 }
-#image1{
-    text-align: center;
-}
+
+
+
+
 .list{
     
         display:flex;
@@ -12,4 +13,12 @@
     }
      
 
-
+#image1{
+    text-align: center;
+}
+#image2{
+    text-align: center;
+}
+#image3{
+    text-align: center;
+}

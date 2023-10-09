@@ -1,6 +1,12 @@
+
+
+.text-center{
+  padding-top: 30px;
+}
+
 #counter{
-    text-align: left;
-    margin-bottom: 50px;
+    text-align:center;
+    
     
   }
  

@@ -6,7 +6,7 @@ export default function TargetValue(){
     const [lastName,setLastName]=useState();
 
     function handleFirstName(e){
-        console.log(e);
+        
         setFirstName(e.target.value);
     }
     function handleLastName(e){
