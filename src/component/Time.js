@@ -1,6 +1,6 @@
 // src/App.js
 import React from 'react';
-import '../styles/App.css';
+import '../App.css';
 import DigitalClock from '../hook/DigitalClock';
 import "../styles/bootstrap.min.css";
 import "../styles/digitalclock.css";

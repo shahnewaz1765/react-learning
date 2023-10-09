@@ -1,5 +1,5 @@
 import "./styles/bootstrap.min.css";
-import "./styles/App.css";
+import "./App.css";
 import Message from "./component/message";
 import Comment from "./component/Comment";     
 import Click from "./component/Click";
